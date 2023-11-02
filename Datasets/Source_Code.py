@@ -5,16 +5,16 @@ from bs4 import BeautifulSoup
 
 
 # parse the data files as html to datasets.
-with open("Datasets/2008_honda_accord", "r") as file:
+with open("Datasets/2008_honda_accord", "r", encoding="utf-8", errors="ignore") as file:
     honda_accord_2008_file = file.read()
     
-with open("Datasets/2009_honda_accord", "r") as file:
+with open("Datasets/2009_honda_accord", "r" , encoding="utf-8", errors="ignore") as file:
     honda_accord_2009_file = file.read()
     
-with open("Datasets/2009_hyundai_sonata", "r") as file:
+with open("Datasets/2009_hyundai_sonata", "r", encoding="utf-8", errors="ignore") as file:
     hyundai_sonata_2009_file = file.read()
     
-with open("Datasets/2009_toyota_corolla", "r") as file:
+with open("Datasets/2009_toyota_corolla", "r", encoding="utf-8", errors="ignore") as file:
     toyota_corolla_2009_file = file.read()
 
 
